@@ -113,7 +113,7 @@
         </section>
         <section>
             <h1>Future skills</h1>
-            <img class="rotate" src="img/skills%20img/node.png"/>
+            <img class="rotate" src="img/skills img/react.png"/>
             <img class="rotate" src="img/skills img/angular.png"/>
         </section>
     </div>
@@ -122,13 +122,14 @@
     <div class="container">
         <div class="contact-form">
             <h1>Contact</h1>
-            <form id="contact" method="post" action="">
+            <form id="contact" name="contactform" method="post" action="">
                 <label for="name">Full name:</label>
-                <input type="text" id="name" name="name">
+                <input type="text" id="name" name="name" maxlength="50" size="30">
                 <label for="email">E-mail:</label>
-                <input type="email" id="email" name="email">
+                <input type="email" id="email" name="email" maxlength="80" size="30">
                 <label for="message">Message:</label>
-                <textarea id="message" name="message" title="Type the message." required></textarea>
+                <textarea id="message" name="message" title="Type the message." maxlength="1000" cols="25" rows="6">
+                </textarea>
                 <button>Send</button>
             </form>
         </div>
