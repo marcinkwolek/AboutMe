@@ -234,7 +234,7 @@ a{
     height: 600px;
     background-color: #111;
     box-sizing:  border-box;
-    padding: 30px;
+    padding: 25px;
 }
 
 .my-skills img{
@@ -258,7 +258,7 @@ a{
 }
 
 .my-projects {
-    background: url("../img/projects.jpeg");
+    background: url("../img/projects.jpg");
     text-align:  center;
     height: 500px;
     position: relative;
@@ -277,8 +277,8 @@ a{
     display: inline-block;
     padding: 18px;
     position: relative;
-    margin: 165px 0;
-    box-shadow: 0px 0px 70px 10px;
+    margin: 209px 0;
+    box-shadow: 0 0 70px 10px;
 }
 
 .my-projects h2:hover{
